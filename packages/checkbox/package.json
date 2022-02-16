@@ -1,0 +1,25 @@
+{
+  "name": "@uibox/checkbox",
+  "version": "0.0.0",
+  "description": "@uibox/checkbox",
+  "keywords": [
+    "@uibox/checkbox"
+  ],
+  "author": "jaylen.chan <jaylen.chan@hotmail.com>",
+  "homepage": "https://github.com/jaylenchan/uibox#readme",
+  "license": "ISC",
+  "main": "index.ts",
+  "directories": {
+    "test": "__tests__"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaylenchan/uibox.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/jaylenchan/uibox/issues"
+  }
+}
