@@ -1,0 +1,83 @@
+/**
+    .u-block {
+      xxx: xxx
+    }
+  */
+.u-button {
+  display: inline-block;
+  min-height: 30px;
+  min-width: 70px;
+  outline: none;
+  border: #817272;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  padding: 0 15px;
+  border-radius: 5px;
+  vertical-align: middle;
+  cursor: pointer;
+  /**
+  .u-button--modifier {
+  }
+  */
+  /**
+  .u-button--modifier {
+  }
+  */
+  /**
+  .u-button--modifier {
+  }
+  */
+  /**
+  .u-button--modifier {
+  }
+  */
+}
+
+.u-button:hover {
+  opacity: 0.8;
+}
+
+.u-button [class^='u-icon-'] + span {
+  margin-left: 5px;
+}
+
+/**
+    u-button.is--state {
+      xxx: xxx
+    }
+    */
+.u-button.is-disabled {
+  cursor: not-allowed;
+}
+
+/**
+    u-button.is--state {
+      xxx: xxx
+    }
+    */
+.u-button.is-round {
+  border-radius: 20px;
+}
+
+.u-button--primary {
+  color: #ffffff;
+  background-color: #409eff;
+}
+
+.u-button--info {
+  color: #ffffff;
+  background-color: #909399;
+}
+
+.u-button--warning {
+  color: #ffffff;
+  background-color: #e6a23c;
+}
+
+.u-button--danger {
+  color: #ffffff;
+  background-color: #f56c6c;
+}
+/*# sourceMappingURL=button.css.map */

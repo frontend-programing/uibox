@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "col.scss",
+        "common/var.scss",
+        "mixins/config.scss",
+        "mixins/config.scss"
+    ],
+    "names": [],
+    "file": "col.css"
+}

@@ -13,6 +13,9 @@
         <u-button type="primary">下一页</u-button>
       </u-button-group>
     </div>
+    <div class="layout-wrapper">
+      <u-col tag="p" :span="12" style="background-color: red"> span 6 offset 8 </u-col>
+    </div>
   </div>
 </template>
 

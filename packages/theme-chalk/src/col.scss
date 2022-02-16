@@ -1,0 +1,13 @@
+@import './mixins/config';
+
+@include b(col) {
+  @for $i from 1 through 24 {
+    &.u-col-span-#{$i} {
+      flex: (1/24 * $i * 100) * 1%;
+      max-width: (1/24 * $i * 100) * 1%;
+    }
+    &.u-col-offset-#{$i} {
+      margin-left: (1/24 * $i * 100) * 1%;
+    }
+  }
+}
