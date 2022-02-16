@@ -1,0 +1,372 @@
+@import './mixins/config';
+
+@font-face {
+  font-family: 'uibox-icons'; /* Project id 3185117 */
+  src: url('./fonts/iconfont.woff2?t=1644919886623') format('woff2'),
+    url('./fonts/iconfont.woff?t=1644919886623') format('woff'),
+    url('./fonts/iconfont.ttf?t=1644919886623') format('truetype');
+}
+
+[class^='#{$namespace}-icon-'] {
+  font-family: 'uibox-icons' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.u-icon-test:before {
+  content: '\e633';
+}
+
+.u-icon-test1:before {
+  content: '\e634';
+}
+
+.u-icon-test2:before {
+  content: '\e635';
+}
+
+.u-icon-test3:before {
+  content: '\e636';
+}
+
+.u-icon-test4:before {
+  content: '\e637';
+}
+
+.u-icon-test5:before {
+  content: '\e638';
+}
+
+.u-icon-test6:before {
+  content: '\e639';
+}
+
+.u-icon-test7:before {
+  content: '\e63a';
+}
+
+.u-icon-test8:before {
+  content: '\e63b';
+}
+
+.u-icon-test9:before {
+  content: '\e63c';
+}
+
+.u-icon-test10:before {
+  content: '\e63d';
+}
+
+.u-icon-test11:before {
+  content: '\e63e';
+}
+
+.u-icon-test12:before {
+  content: '\e63f';
+}
+
+.u-icon-test13:before {
+  content: '\e640';
+}
+
+.u-icon-test14:before {
+  content: '\e641';
+}
+
+.u-icon-test15:before {
+  content: '\e642';
+}
+
+.u-icon-test16:before {
+  content: '\e643';
+}
+
+.u-icon-test17:before {
+  content: '\e644';
+}
+
+.u-icon-test18:before {
+  content: '\e645';
+}
+
+.u-icon-test19:before {
+  content: '\e646';
+}
+
+.u-icon-test20:before {
+  content: '\e647';
+}
+
+.u-icon-test21:before {
+  content: '\e648';
+}
+
+.u-icon-test22:before {
+  content: '\e649';
+}
+
+.u-icon-test23:before {
+  content: '\e64a';
+}
+
+.u-icon-test24:before {
+  content: '\e64b';
+}
+
+.u-icon-test25:before {
+  content: '\e64c';
+}
+
+.u-icon-test26:before {
+  content: '\e64d';
+}
+
+.u-icon-test27:before {
+  content: '\e64e';
+}
+
+.u-icon-test28:before {
+  content: '\e64f';
+}
+
+.u-icon-test29:before {
+  content: '\e650';
+}
+
+.u-icon-test30:before {
+  content: '\e651';
+}
+
+.u-icon-test31:before {
+  content: '\e652';
+}
+
+.u-icon-test32:before {
+  content: '\e653';
+}
+
+.u-icon-test33:before {
+  content: '\e654';
+}
+
+.u-icon-test34:before {
+  content: '\e655';
+}
+
+.u-icon-test35:before {
+  content: '\e656';
+}
+
+.u-icon-test36:before {
+  content: '\e657';
+}
+
+.u-icon-test37:before {
+  content: '\e658';
+}
+
+.u-icon-test38:before {
+  content: '\e659';
+}
+
+.u-icon-test39:before {
+  content: '\e65a';
+}
+
+.u-icon-test40:before {
+  content: '\e65b';
+}
+
+.u-icon-test41:before {
+  content: '\e65c';
+}
+
+.u-icon-test42:before {
+  content: '\e65d';
+}
+
+.u-icon-test43:before {
+  content: '\e65e';
+}
+
+.u-icon-test44:before {
+  content: '\e65f';
+}
+
+.u-icon-test45:before {
+  content: '\e660';
+}
+
+.u-icon-test46:before {
+  content: '\e661';
+}
+
+.u-icon-test47:before {
+  content: '\e662';
+}
+
+.u-icon-test48:before {
+  content: '\e663';
+}
+
+.u-icon-test49:before {
+  content: '\e664';
+}
+
+.u-icon-test50:before {
+  content: '\e665';
+}
+
+.u-icon-test51:before {
+  content: '\e666';
+}
+
+.u-icon-test52:before {
+  content: '\e667';
+}
+
+.u-icon-test53:before {
+  content: '\e668';
+}
+
+.u-icon-test54:before {
+  content: '\e669';
+}
+
+.u-icon-test55:before {
+  content: '\e66a';
+}
+
+.u-icon-test56:before {
+  content: '\e66b';
+}
+
+.u-icon-test57:before {
+  content: '\e66c';
+}
+
+.u-icon-test58:before {
+  content: '\e66d';
+}
+
+.u-icon-test59:before {
+  content: '\e66e';
+}
+
+.u-icon-test60:before {
+  content: '\e66f';
+}
+
+.u-icon-test61:before {
+  content: '\e670';
+}
+
+.u-icon-test62:before {
+  content: '\e671';
+}
+
+.u-icon-test63:before {
+  content: '\e672';
+}
+
+.u-icon-test64:before {
+  content: '\e673';
+}
+
+.u-icon-test65:before {
+  content: '\e674';
+}
+
+.u-icon-test66:before {
+  content: '\e675';
+}
+
+.u-icon-test67:before {
+  content: '\e676';
+}
+
+.u-icon-test68:before {
+  content: '\e677';
+}
+
+.u-icon-test69:before {
+  content: '\e678';
+}
+
+.u-icon-test70:before {
+  content: '\e679';
+}
+
+.u-icon-test71:before {
+  content: '\e67a';
+}
+
+.u-icon-test72:before {
+  content: '\e67b';
+}
+
+.u-icon-test73:before {
+  content: '\e67c';
+}
+
+.u-icon-test74:before {
+  content: '\e67d';
+}
+
+.u-icon-test75:before {
+  content: '\e67e';
+}
+
+.u-icon-test76:before {
+  content: '\e67f';
+}
+
+.u-icon-test77:before {
+  content: '\e680';
+}
+
+.u-icon-test78:before {
+  content: '\e681';
+}
+
+.u-icon-test79:before {
+  content: '\e682';
+}
+
+.u-icon-test80:before {
+  content: '\e683';
+}
+
+.u-icon-test81:before {
+  content: '\e684';
+}
+
+.u-icon-test82:before {
+  content: '\e685';
+}
+
+.u-icon-test83:before {
+  content: '\e686';
+}
+
+.u-icon-test84:before {
+  content: '\e687';
+}
+
+.u-dingtalk:before {
+  content: '\e688';
+}
+
+.u-alipay:before {
+  content: '\e689';
+}
+
+.u-taobao:before {
+  content: '\e68a';
+}
+
+.u-icon-test85:before {
+  content: '\e68b';
+}

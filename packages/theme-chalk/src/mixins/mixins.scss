@@ -1,0 +1,50 @@
+@import '../common/var';
+
+@mixin b($block) {
+  $B: $namespace + '-' + $block;
+  /**
+    .u-block {
+      xxx: xxx
+    }
+  */
+  .#{$B} {
+    @content;
+  }
+}
+
+@mixin when($state) {
+  @at-root {
+    /**
+    &.is--state {
+      xxx: xxx
+    }
+    */
+    &.#{$state-prefix + $state} {
+      @content;
+    }
+  }
+}
+
+@mixin m($modifier) {
+  /**
+  .u-button--modifier {
+  }
+  */
+  @at-root {
+    #{& + $modifier-separator + $modifier} {
+      @content;
+    }
+  }
+}
+
+@mixin e($element) {
+  /**
+  .u-button__element {
+  }
+  */
+  @at-root {
+    #{& + $element-separator + $element} {
+      @content;
+    }
+  }
+}

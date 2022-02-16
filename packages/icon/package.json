@@ -1,0 +1,18 @@
+{
+  "name": "@uibox/icon",
+  "version": "0.0.0",
+  "description": "@uibox/icon",
+  "keywords": [
+    "@uibox/icon"
+  ],
+  "author": "jaylen.chan <jaylen.chan@hotmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.ts",
+  "directories": {
+    "test": "__tests__"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
