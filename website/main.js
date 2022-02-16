@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import UiBox from '../lib/index'
-import '../packages/theme-chalk/lib/index.css'
+import UiBox from 'uibox'
+import '@uibox/theme-chalk/src/index.scss'
 
 createApp(App).use(UiBox).mount('#app')

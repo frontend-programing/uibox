@@ -1,4 +1,4 @@
-@import '../common/var';
+@import 'config';
 
 @mixin b($block) {
   $B: $namespace + '-' + $block;
@@ -15,7 +15,7 @@
 @mixin when($state) {
   @at-root {
     /**
-    &.is--state {
+    u-button.is--state {
       xxx: xxx
     }
     */
@@ -47,4 +47,9 @@
       @content;
     }
   }
+}
+
+@mixin buttonClass($color, $bgColor) {
+  color: $color;
+  background-color: $bgColor;
 }

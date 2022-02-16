@@ -19,7 +19,7 @@ module.exports = {
     }
   },
   resolve: {
-    extensions: ['.js', '.vue']
+    extensions: ['.ts', '.js', '.vue']
   },
   module: {
     rules: [
