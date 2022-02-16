@@ -16,18 +16,26 @@
     <div class="layout-wrapper">
       <u-col tag="p" :span="12" style="background-color: red"> span 6 offset 8 </u-col>
     </div>
+    <div class="checkbox-wrapper">
+      <u-checkbox v-model="value">checkbox</u-checkbox>
+    </div>
   </div>
 </template>
 
 <script>
-import { defineComponent } from 'vue'
+import { defineComponent, watch, ref } from 'vue'
 
 const useApp = function () {
+  const value = ref(false)
   function onClick() {
     console.log('outer-click')
   }
 
+  watch(value, (newVal) => {
+    console.log('newVal', newVal)
+  })
   return {
+    value,
     onClick
   }
 }
